@@ -15307,6 +15307,98 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 	animation: cv-init2 5s ease-in-out;
 	animation-delay: 5s;
 }
+@keyframes cv-init2 {
+	0% {
+		content: "Plugin Not Loaded";
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	25% {
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	30% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	45% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	49% {
+		content: "Plugin Not Loaded";
+		opacity: 0;
+		-webkit-transform: scale(1.3);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1.3)
+	}
+	50% {
+		content: "Please download and start the plugin";
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	55% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	70% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	74% {
+		content: "Please download and start the plugin";
+		opacity: 0;
+		-webkit-transform: scale(1.3);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1.3)
+	}
+	75% {
+		content: "https://nfld99.com/plugin";
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	80% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	95% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	99% {
+		content: "https://nfld99.com/plugin";
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	100% {
+		content: "";
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		opacity: 0
+	}
+}
 
 .status-1WEaea {
 	border: 1px solid var(--Secondary-Main-Colour);
